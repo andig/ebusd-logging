@@ -2,7 +2,11 @@
     "name": "ebusd-logging",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-node-email": "^0.1.29",
+        "node-red-dashboard": "^2.10.1",
+        "node-red-contrib-volkszaehler": "^0.3.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
